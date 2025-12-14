@@ -3,7 +3,7 @@ Description: Plantilla para Application Load Balancer (ALB) público con Target 
 
 Resources:
 
-  # Application Load Balancer (ALB) público
+  # Application Load Balancer (ALB) público.
   MinticALB:
     Type: AWS::ElasticLoadBalancingV2::LoadBalancer
     Properties:
